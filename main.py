@@ -254,9 +254,9 @@ def open_box(min = 5, withBrawler = True):
 
 if time_[0] != -1:
     t = time() - time_[0]
-    box_count[0] += int(t / 50)
-    big_box_count[0] += int(t / 100)
-    mega_box_count[0] += int(t / 250)
+    box_count[0] += int(t / 120)
+    big_box_count[0] += int(t / 480)
+    mega_box_count[0] += int(t / 1920)
     save("box_count", str(box_count[0]))
     save("big_box_count", str(big_box_count[0]))
     save("mega_box_count", str(mega_box_count[0]))
